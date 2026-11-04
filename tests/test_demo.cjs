@@ -11,6 +11,14 @@ for(const seed of data.seeds)for(const method of Object.keys(data.methods))for(c
  assert.equal(data.groups[`${seed}:${method}:${round}`].observedN,512+(round-1)*16);
 }
 assert(api.esc('<script>"test"</script>').includes('&lt;script&gt;'));
+assert.equal(api.mutationLabel('40:D>W'),'第 40 位：D → W');
+assert.equal(api.actionLabel('40:D>W@IDGV/LDGV'),'第 40 位 D → W；两个检验背景：IDGV、LDGV');
+assert.equal(api.evidenceLabel('C:GDGV>GWGV'),'已测序列对照 GDGV → GWGV');
+assert.equal(api.actionLabel('UNKNOWN_FORMAT'),'UNKNOWN_FORMAT');
+for(const group of Object.values(data.groups)){
+ for(const action of group.actions)assert(!api.actionLabel(action.id).includes('@'));
+ for(const id of group.nextActions)assert(!api.actionLabel(id).includes('@'));
+}
 const contrast=data.groups['45001:tool_llm:2'].actions.flatMap(a=>a.feedback).filter(f=>['IFGM','LFGM'].includes(f.child));
 assert.equal(contrast.length,2);assert(contrast.find(f=>f.child==='IFGM').actualDelta>0);assert(contrast.find(f=>f.child==='LFGM').actualDelta<0);
 for(const [v,r,y] of [['FWAA',2,8.7620],['KWAA',3,0.0093]])assert(Math.abs(api.recommendations(data,45005,'tool_llm',r).find(x=>x.variant===v).actual-y)<0.0001);
@@ -34,6 +42,8 @@ const document={getElementById(id){assert(elements[id],id);return elements[id]},
 const ctx={window:{PROTEIN_DATA:data},document,Blob,URL,setTimeout(){}};
 vm.runInNewContext(fs.readFileSync(path.join(dir,'app.js'),'utf8'),ctx);
 assert.equal(ctx.window.PROTEIN_VIEW.state.seed,45001);assert(elements['chart'].innerHTML.includes('<svg'));
+assert(!elements.steps.innerHTML.replace(/<details>[\s\S]*?<\/details>/g,'').includes('@'));
+assert(elements.steps.innerHTML.includes('原始记录编号'));
 caseButtons[1].click();assert.equal(ctx.window.PROTEIN_VIEW.state.variant,'KWAA');assert.equal(ctx.window.PROTEIN_VIEW.state.round,3);
 assert(elements['variant-badge'].textContent.includes('0.0093'));
 elements['contrast-case'].click();assert.equal(ctx.window.PROTEIN_VIEW.state.seed,45001);assert.equal(ctx.window.PROTEIN_VIEW.state.round,2);

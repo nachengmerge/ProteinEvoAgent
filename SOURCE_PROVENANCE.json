@@ -82,8 +82,8 @@
       }
     },
     "demo/app.js": {
-      "sha256": "09eee2c7993ee955e1689a9cda05b29abb0bd7b99a875a128244665719fced38",
-      "bytes": 12516,
+      "sha256": "024d58d11a2a9cc55fd588c10e055f46dfb1edaaf4edca8d21b927b31c9a34f8",
+      "bytes": 13468,
       "kind": "curated_entrypoint_or_derived_report_asset"
     },
     "demo/data.js": {
@@ -92,8 +92,8 @@
       "kind": "curated_entrypoint_or_derived_report_asset"
     },
     "demo/index.html": {
-      "sha256": "e54ae041cfcaa059240c47dcfe2995b92d40acbbfcdfc3809b9b1ae7ac4797d0",
-      "bytes": 7812,
+      "sha256": "971d0c61cf0358dbcffce5ceb0488f152baa1e81a99ad90f78705d5400b23e4e",
+      "bytes": 7840,
       "kind": "curated_entrypoint_or_derived_report_asset"
     },
     "demo/style.css": {
@@ -674,8 +674,8 @@
       }
     },
     "tests/test_demo.cjs": {
-      "sha256": "bb4a8902d386afdbb786bf0643326c50901a131e579ce126f495f9d7bc955f9e",
-      "bytes": 4383,
+      "sha256": "ac6d4c0b38cb92fbf4006e27f41d94a8c16c2ac7b7ebbd8139aac0c3d320d14d",
+      "bytes": 5088,
       "kind": "curated_entrypoint_or_derived_report_asset"
     },
     "tests/test_workflow.py": {
