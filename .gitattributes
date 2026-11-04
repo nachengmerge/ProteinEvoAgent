@@ -1,0 +1,4 @@
+# Scientific source snapshots are compared as bytes across platforms.
+* -text
+*.png binary
+*.gz binary

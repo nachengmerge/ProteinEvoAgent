@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+runs/
+models/
+data/raw/
+data/processed/
+tmp/
+build/
+dist/
+!demo/dist/

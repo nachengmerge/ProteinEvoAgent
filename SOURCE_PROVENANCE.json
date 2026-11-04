@@ -1,0 +1,697 @@
+{
+  "report_sha256": "5f8cb29ea4a8766f705a516b6cabc6a21d8865149b9b66751e8510e45e26790c",
+  "scope": "Current Word report: predictor, P34 main, graph/self-review supplement, interactive result browser",
+  "formal_experiments_rerun": false,
+  "files": {
+    ".gitattributes": {
+      "sha256": "17c26613d8c16359bcd440bf3b5a3e491c76b47d45166d0938bcc717e1e8c9ab",
+      "bytes": 103,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    ".github/workflows/cpu-check.yml": {
+      "sha256": "09e3309bfc53b81071c0dc3e578b26393ba652a64d66b80e287df79f114bb442",
+      "bytes": 562,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    ".gitignore": {
+      "sha256": "a8185fe68023d1b8923951fcab979998ec273713eaa5e3345834fc1b5e372af4",
+      "bytes": 117,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "configs/llama_baseline_v1.json": {
+      "sha256": "0462be03f9a66c4e886c4b4415f05b677c2f16645d256e594e3645ad89106e52",
+      "bytes": 977,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "configs/llama_baseline_v1.json",
+        "sha256": "0462be03f9a66c4e886c4b4415f05b677c2f16645d256e594e3645ad89106e52"
+      }
+    },
+    "data/splits/gb1_initial_labeled.csv": {
+      "sha256": "531bdd633a1077d3d20e31fbd4c0767dc3e52d455595f807f1b3b29deff3533a",
+      "bytes": 10848,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "data/splits/gb1_initial_labeled.csv",
+        "sha256": "531bdd633a1077d3d20e31fbd4c0767dc3e52d455595f807f1b3b29deff3533a"
+      }
+    },
+    "data/splits/gb1_oracle.csv.gz": {
+      "sha256": "061916e43532a056a8faa510674ff5b552f787566974077e991793dedde991d0",
+      "bytes": 820775,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "data/splits/gb1_oracle.csv.gz",
+        "sha256": "061916e43532a056a8faa510674ff5b552f787566974077e991793dedde991d0"
+      }
+    },
+    "data/splits/gb1_partition.csv.gz": {
+      "sha256": "32ea1a3fa90d273369d52528177478112c16f88017fea7af7fc63eb64e79f3bb",
+      "bytes": 422532,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "data/splits/gb1_partition.csv.gz",
+        "sha256": "32ea1a3fa90d273369d52528177478112c16f88017fea7af7fc63eb64e79f3bb"
+      }
+    },
+    "data/splits/gb1_split_statistics.json": {
+      "sha256": "fdcd9cb29638d000ee34bfd087f863d53f051f9060ce79575a801ab05f484f39",
+      "bytes": 458,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "data/splits/gb1_split_statistics.json",
+        "sha256": "fdcd9cb29638d000ee34bfd087f863d53f051f9060ce79575a801ab05f484f39"
+      }
+    },
+    "data/splits/gb1_test.csv.gz": {
+      "sha256": "29f108c359b22653f1ccb7bcf6ee616119c7f606dc1b92a81f22c8794950fedc",
+      "bytes": 172073,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "data/splits/gb1_test.csv.gz",
+        "sha256": "29f108c359b22653f1ccb7bcf6ee616119c7f606dc1b92a81f22c8794950fedc"
+      }
+    },
+    "data/splits/gb1_validation.csv.gz": {
+      "sha256": "b38cf27c974236348d57fa3e3d7953aa39922d917f91e0675c4a211d2cfbbfe8",
+      "bytes": 117052,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "data/splits/gb1_validation.csv.gz",
+        "sha256": "b38cf27c974236348d57fa3e3d7953aa39922d917f91e0675c4a211d2cfbbfe8"
+      }
+    },
+    "demo/app.js": {
+      "sha256": "09eee2c7993ee955e1689a9cda05b29abb0bd7b99a875a128244665719fced38",
+      "bytes": 12516,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "demo/data.js": {
+      "sha256": "83af66cbdc3f87a4d99c82cb89db5f85619472d420f18c813f0e63a32564e7f7",
+      "bytes": 2132201,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "demo/index.html": {
+      "sha256": "e54ae041cfcaa059240c47dcfe2995b92d40acbbfcdfc3809b9b1ae7ac4797d0",
+      "bytes": 7812,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "demo/style.css": {
+      "sha256": "5b857b1bc56606299198f85f147ca6dbe9ae6ab255e70a0a62e24bda0c941fa3",
+      "bytes": 9729,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "docs/model_baseline_selection_cn.md": {
+      "sha256": "a3f73cd546e007c01a1cfb20a63513e783ec3caa2f9cb69cf6a41abf0dfd4091",
+      "bytes": 2895,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "docs/model_baseline_selection_cn.md",
+        "sha256": "a3f73cd546e007c01a1cfb20a63513e783ec3caa2f9cb69cf6a41abf0dfd4091"
+      }
+    },
+    "docs/p34_llama_protocol_cn.md": {
+      "sha256": "914606ef44aee92c5036b8dce36a9339c777901dc214ed0e031faab6390a1e94",
+      "bytes": 4061,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "docs/p34_llama_protocol_cn.md",
+        "sha256": "914606ef44aee92c5036b8dce36a9339c777901dc214ed0e031faab6390a1e94"
+      }
+    },
+    "docs/report_alignment.md": {
+      "sha256": "06f72e196ea3f90bf85e34e95a1988a3fc6af2c58f8d609e36df0e1978f4951c",
+      "bytes": 1887,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "docs/report_source.json": {
+      "sha256": "dc18d3e3fbdf4f72511a1b9ae10ec838eac94c168b7d83823e197f1e0a679122",
+      "bytes": 341,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "docs/THIRD_PARTY_NOTICES.md": {
+      "sha256": "b9e4e13ee8988ec29073d8e15a0a5afaecd0c46cc60b359aebc7fc9cd1a34fee",
+      "bytes": 2170,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "docs/THIRD_PARTY_NOTICES.md",
+        "sha256": "b9e4e13ee8988ec29073d8e15a0a5afaecd0c46cc60b359aebc7fc9cd1a34fee"
+      }
+    },
+    "docs/validation.json": {
+      "sha256": "da91ab3cce2a34867fe5b0d8911f341035507c7d9ecca4b869e54ce71c73c840",
+      "bytes": 794,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "pyproject.toml": {
+      "sha256": "91ed0a92f78752b14a48d32c6cbcd955884d1b98d720201ddbf7f49da89def5c",
+      "bytes": 639,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "README.md": {
+      "sha256": "dadbebc069145372105a222a5afa556257d25a5817c82fafcd6b52df2bfbb812",
+      "bytes": 7752,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "results/agent/call_cost_summary.csv": {
+      "sha256": "1161f7bf9120ee2187baccebe78897b561c60d8de04bf01d4772a228b56f53e4",
+      "bytes": 146,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/LLM_cost_summary.csv",
+        "sha256": "1161f7bf9120ee2187baccebe78897b561c60d8de04bf01d4772a228b56f53e4"
+      }
+    },
+    "results/agent/decision_states.json.gz": {
+      "sha256": "65f979edb6f904b7479ed75f21897346a539b6f0f333ed31c31d168f1ac20c27",
+      "bytes": 117255,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "results/agent/llm_calls.jsonl.gz": {
+      "sha256": "c1d375ff30b3bda1840136b5a42380522030d554b8aec6be2f07834fa7a236cd",
+      "bytes": 224095,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/LLM_traces.jsonl.gz",
+        "sha256": "c1d375ff30b3bda1840136b5a42380522030d554b8aec6be2f07834fa7a236cd"
+      }
+    },
+    "results/agent/panel_45001_feedback.json": {
+      "sha256": "4e1835d30294afe7e02d37e6aa543a705fcc003f5ee113fc1822d699ec56a93a",
+      "bytes": 74291,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "results/evolution/failure_cases.csv": {
+      "sha256": "9bb1dcb1de78717ab46b9750faac042fd087e31abb54f58efd42948a2c44e9b5",
+      "bytes": 2746,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/failure_cases.csv",
+        "sha256": "9bb1dcb1de78717ab46b9750faac042fd087e31abb54f58efd42948a2c44e9b5"
+      }
+    },
+    "results/evolution/fitness_by_round.png": {
+      "sha256": "06a63e98321b7e26858342422555c53edaccceeef85fd7b4f01835a771bf5a9d",
+      "bytes": 113428,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/fitness_by_round.png",
+        "sha256": "06a63e98321b7e26858342422555c53edaccceeef85fd7b4f01835a771bf5a9d"
+      }
+    },
+    "results/evolution/method_summary.csv": {
+      "sha256": "c600007760ebc4dce1eaf7047322d8065b96dd3cb77d0bf631a3e0cfc2945b7e",
+      "bytes": 618,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/current_results.csv",
+        "sha256": "c600007760ebc4dce1eaf7047322d8065b96dd3cb77d0bf631a3e0cfc2945b7e"
+      }
+    },
+    "results/evolution/paired_best_gain_contrasts.json": {
+      "sha256": "b193412a349ef1aa60e5400055928710c57233ef83ee8d0ae83426817fa6b06b",
+      "bytes": 2674,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/paired_best_gain_contrasts.json",
+        "sha256": "b193412a349ef1aa60e5400055928710c57233ef83ee8d0ae83426817fa6b06b"
+      }
+    },
+    "results/evolution/paired_mean_contrasts.json": {
+      "sha256": "f5e6023f371d8d7fb22f1dd3a056fd0979bcac6638c016de82d3c4fd5fccd346",
+      "bytes": 3214,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/paired_mean_contrasts.json",
+        "sha256": "f5e6023f371d8d7fb22f1dd3a056fd0979bcac6638c016de82d3c4fd5fccd346"
+      }
+    },
+    "results/evolution/panel_45001_top3.csv": {
+      "sha256": "9ca3a0deb6eae92ddcb5f2c9bdb55e2f1a66144e6ef2117284d46b968412cc08",
+      "bytes": 2400,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/preselected_panel_top3.csv",
+        "sha256": "9ca3a0deb6eae92ddcb5f2c9bdb55e2f1a66144e6ef2117284d46b968412cc08"
+      }
+    },
+    "results/evolution/recommendations.csv": {
+      "sha256": "7848029605e6df676c065a082af394faae08ec2f05390484a41a6cd2ea4a45c2",
+      "bytes": 535658,
+      "kind": "curated_entrypoint_or_derived_report_asset",
+      "source": {
+        "original_project_path": "research/p34/recommendations.csv.gz",
+        "source_sha256": "53c941d9becd8175b6ff3e5364921a0460365903ac2c9c1419ced6cb052c0541",
+        "transformation": "lossless_gzip_decompression"
+      }
+    },
+    "results/evolution/round_metrics.csv": {
+      "sha256": "d6ff956f913685c08a4bea5c491017409dbc8cdb0e8b60042480cd66ac0afca2",
+      "bytes": 16939,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p34/round_metrics.csv",
+        "sha256": "d6ff956f913685c08a4bea5c491017409dbc8cdb0e8b60042480cd66ac0afca2"
+      }
+    },
+    "results/predictor/metrics_by_panel.csv": {
+      "sha256": "6b8e4c945927968d6f3bae520650b52697b7f9d87d49afd28228dae871a63b5f",
+      "bytes": 11693,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p29/predictor_evaluation/predictor_metrics.csv",
+        "sha256": "6b8e4c945927968d6f3bae520650b52697b7f9d87d49afd28228dae871a63b5f"
+      }
+    },
+    "results/predictor/metrics_mean.csv": {
+      "sha256": "db00ba4b2cf8ccfb7c634dce824fd4e6af52bb2ba2915b15d382c448d094b98f",
+      "bytes": 891,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p29/predictor_metrics_mean.csv",
+        "sha256": "db00ba4b2cf8ccfb7c634dce824fd4e6af52bb2ba2915b15d382c448d094b98f"
+      }
+    },
+    "results/supplement/self_review_summary.csv": {
+      "sha256": "b1b7e340ad5ff5f52174a36e98584ea99be3e3bf27ecd3440c82e7a0d158e212",
+      "bytes": 415,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "research/p39/current_results.csv",
+        "sha256": "b1b7e340ad5ff5f52174a36e98584ea99be3e3bf27ecd3440c82e7a0d158e212"
+      }
+    },
+    "scripts/build_demo.py": {
+      "sha256": "c3a7a5c35e7292c7196d6e87abb24a4e36104b36e9815721a517e6b2fe8a39f6",
+      "bytes": 2752,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "scripts/download_gb1.py": {
+      "sha256": "3e2c764592546dcdce43ad1876617ac3b2eddff50d4af03171cdfb8378383aca",
+      "bytes": 1022,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "scripts/download_gb1.py",
+        "sha256": "3e2c764592546dcdce43ad1876617ac3b2eddff50d4af03171cdfb8378383aca"
+      }
+    },
+    "scripts/download_local_llm.py": {
+      "sha256": "85958f7510b621b4085b149c6063c06f5b22abc1f491b66f8bd9b4636bca5287",
+      "bytes": 2457,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "scripts/download_local_llm.py",
+        "sha256": "85958f7510b621b4085b149c6063c06f5b22abc1f491b66f8bd9b4636bca5287"
+      }
+    },
+    "scripts/reproduce_small.py": {
+      "sha256": "48d6e00373f0573931b927992dc83e3753ca5b2a1f59eaed38ffa2c7133aefbe",
+      "bytes": 6779,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "scripts/reproduce_small.py",
+        "sha256": "48d6e00373f0573931b927992dc83e3753ca5b2a1f59eaed38ffa2c7133aefbe"
+      }
+    },
+    "scripts/run_p34_llama.py": {
+      "sha256": "07f1f9e3dcc02d16f0d3d5341bf4000f9d5121d94d411b7934797e56afb13fc9",
+      "bytes": 20140,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "scripts/run_p34_llama.py",
+        "sha256": "07f1f9e3dcc02d16f0d3d5341bf4000f9d5121d94d411b7934797e56afb13fc9"
+      }
+    },
+    "src/proteinevo/__init__.py": {
+      "sha256": "b3fcf2d4a958dc27561382218d7c5bfc7135d9529ed02c299a491e71ac45caa7",
+      "bytes": 109,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/__init__.py",
+        "sha256": "b3fcf2d4a958dc27561382218d7c5bfc7135d9529ed02c299a491e71ac45caa7"
+      }
+    },
+    "src/proteinevo/active_science/__init__.py": {
+      "sha256": "ede155635964f03e4f1f19e1cd03494e9ef189e7d2e2f10aae7aadbfd673b460",
+      "bytes": 108,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/active_science/__init__.py",
+        "sha256": "ede155635964f03e4f1f19e1cd03494e9ef189e7d2e2f10aae7aadbfd673b460"
+      }
+    },
+    "src/proteinevo/active_science/deep_ensemble.py": {
+      "sha256": "6f0cff3096e89780f8b17bfeabdeb5d23ddf22a9530fb9db35014a388bc601df",
+      "bytes": 4804,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/active_science/deep_ensemble.py",
+        "sha256": "6f0cff3096e89780f8b17bfeabdeb5d23ddf22a9530fb9db35014a388bc601df"
+      }
+    },
+    "src/proteinevo/active_science/planner.py": {
+      "sha256": "85849b38b9a7814b29501553f2af13dcdcb1112283eb6912240b9ff8ab7c416b",
+      "bytes": 8199,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/active_science/planner.py",
+        "sha256": "85849b38b9a7814b29501553f2af13dcdcb1112283eb6912240b9ff8ab7c416b"
+      }
+    },
+    "src/proteinevo/active_science/settings.py": {
+      "sha256": "2da7f61305f03ce01bc0f840230226dc25a06cbc9e88bded7bb2f008f3ba99ae",
+      "bytes": 1323,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/active_science/settings.py",
+        "sha256": "2da7f61305f03ce01bc0f840230226dc25a06cbc9e88bded7bb2f008f3ba99ae"
+      }
+    },
+    "src/proteinevo/active_science/tools.py": {
+      "sha256": "67f6e5a14e87b5ea1b339dd2336887e87527cdcb6e9c1e2b84d99a8a4d0ba64e",
+      "bytes": 5741,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/active_science/tools.py",
+        "sha256": "67f6e5a14e87b5ea1b339dd2336887e87527cdcb6e9c1e2b84d99a8a4d0ba64e"
+      }
+    },
+    "src/proteinevo/agents.py": {
+      "sha256": "9fe6fc9242effe584df33faa8570dfc0d08f75b49d5db0cb35593e8476b0ef6a",
+      "bytes": 10304,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/agents.py",
+        "sha256": "9fe6fc9242effe584df33faa8570dfc0d08f75b49d5db0cb35593e8476b0ef6a"
+      }
+    },
+    "src/proteinevo/candidates.py": {
+      "sha256": "18e424d4f0110ec2aa8f621229380b50432a5c0bfdcc682a752da0f54a870a31",
+      "bytes": 6514,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/candidates.py",
+        "sha256": "18e424d4f0110ec2aa8f621229380b50432a5c0bfdcc682a752da0f54a870a31"
+      }
+    },
+    "src/proteinevo/config.py": {
+      "sha256": "04719780a60f1e940a3fd183b816ad7ebe57aee98180fc45ce8c2d9b4c00a147",
+      "bytes": 1319,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/config.py",
+        "sha256": "04719780a60f1e940a3fd183b816ad7ebe57aee98180fc45ce8c2d9b4c00a147"
+      }
+    },
+    "src/proteinevo/contextual_llm.py": {
+      "sha256": "d16c89b92cd6277e969cb1ce98d84d66a05d566de3f9803494c03b4ee17c666c",
+      "bytes": 10603,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/contextual_llm.py",
+        "sha256": "d16c89b92cd6277e969cb1ce98d84d66a05d566de3f9803494c03b4ee17c666c"
+      }
+    },
+    "src/proteinevo/contextual_science.py": {
+      "sha256": "18807e9e19375ad8598275898e2678ec27c553c65dc77cc525fdd5cd1928378b",
+      "bytes": 15459,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/contextual_science.py",
+        "sha256": "18807e9e19375ad8598275898e2678ec27c553c65dc77cc525fdd5cd1928378b"
+      }
+    },
+    "src/proteinevo/dataset.py": {
+      "sha256": "29829d08ace55531aceabb081ec877305fb2e3b74ff08190ecdf0cd97a76c41d",
+      "bytes": 7757,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/dataset.py",
+        "sha256": "29829d08ace55531aceabb081ec877305fb2e3b74ff08190ecdf0cd97a76c41d"
+      }
+    },
+    "src/proteinevo/delivery/__init__.py": {
+      "sha256": "edb660279f5044fd5473a6df1f69491c691ba561ba1d169c03d5e1d058941444",
+      "bytes": 82,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/delivery/__init__.py",
+        "sha256": "edb660279f5044fd5473a6df1f69491c691ba561ba1d169c03d5e1d058941444"
+      }
+    },
+    "src/proteinevo/delivery/__main__.py": {
+      "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "bytes": 79,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/delivery/__main__.py",
+        "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7"
+      }
+    },
+    "src/proteinevo/delivery/cli.py": {
+      "sha256": "236a5578b0041cf48ff8b85a134d8493aeea444ace7c9a2eced30c8d817af110",
+      "bytes": 4345,
+      "kind": "curated_entrypoint_or_derived_report_asset",
+      "source": {
+        "original_project_path": "src/proteinevo/delivery/cli.py",
+        "sha256": "cacf5ee654f7b29d7bab11b3fab44420375b22848e5863bca5b1eb8cb6e31006"
+      }
+    },
+    "src/proteinevo/delivery/workflow.py": {
+      "sha256": "7a9ea9e62cf9f2ddb537b9e5680c2c1bd4a5656bf44404c359ca76441d44afa2",
+      "bytes": 14726,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/delivery/workflow.py",
+        "sha256": "7a9ea9e62cf9f2ddb537b9e5680c2c1bd4a5656bf44404c359ca76441d44afa2"
+      }
+    },
+    "src/proteinevo/design_agent.py": {
+      "sha256": "f5d418eeab9e59a244bcacb9c378ea62657a52fd746a37f8221c9470edd1b414",
+      "bytes": 14241,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/design_agent.py",
+        "sha256": "f5d418eeab9e59a244bcacb9c378ea62657a52fd746a37f8221c9470edd1b414"
+      }
+    },
+    "src/proteinevo/evidence_graph.py": {
+      "sha256": "9633537c1998f43dec11265dcd63bf47d6b4c3d1a51df4de4f88ad9ec5994a94",
+      "bytes": 6793,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/evidence_graph.py",
+        "sha256": "9633537c1998f43dec11265dcd63bf47d6b4c3d1a51df4de4f88ad9ec5994a94"
+      }
+    },
+    "src/proteinevo/features.py": {
+      "sha256": "f1befcf966e4e2411125b15c3b949b490297f0f3d0c4415517820c3220478690",
+      "bytes": 1875,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/features.py",
+        "sha256": "f1befcf966e4e2411125b15c3b949b490297f0f3d0c4415517820c3220478690"
+      }
+    },
+    "src/proteinevo/grounded_designer.py": {
+      "sha256": "55a97ce14ec136df516a964a8a656d96e1e3cbaad416fb3c0583644f27b5b8c1",
+      "bytes": 7687,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/grounded_designer.py",
+        "sha256": "55a97ce14ec136df516a964a8a656d96e1e3cbaad416fb3c0583644f27b5b8c1"
+      }
+    },
+    "src/proteinevo/grounded_designer_v2.py": {
+      "sha256": "7e91989b863adff4d23a71c6de2fd1be7aa877a1f8cba85c8617c09400cff670",
+      "bytes": 8270,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/grounded_designer_v2.py",
+        "sha256": "7e91989b863adff4d23a71c6de2fd1be7aa877a1f8cba85c8617c09400cff670"
+      }
+    },
+    "src/proteinevo/kernel_model.py": {
+      "sha256": "de60c7d6ca2ec49e244338dc2a4d43bdf0352f0dae0e923c941ba1026213e242",
+      "bytes": 2777,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/kernel_model.py",
+        "sha256": "de60c7d6ca2ec49e244338dc2a4d43bdf0352f0dae0e923c941ba1026213e242"
+      }
+    },
+    "src/proteinevo/knowledge.py": {
+      "sha256": "b97489d04b074d0fa81f9f7cd44dde7a6a78fe496497fc406aa29498b7861866",
+      "bytes": 2251,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/knowledge.py",
+        "sha256": "b97489d04b074d0fa81f9f7cd44dde7a6a78fe496497fc406aa29498b7861866"
+      }
+    },
+    "src/proteinevo/llama_baseline.py": {
+      "sha256": "8e3cc8b21a8030721ddd941ed9f1d3445798d7816a2491b05e301eaa438a0d99",
+      "bytes": 3966,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/llama_baseline.py",
+        "sha256": "8e3cc8b21a8030721ddd941ed9f1d3445798d7816a2491b05e301eaa438a0d99"
+      }
+    },
+    "src/proteinevo/local_gguf_client.py": {
+      "sha256": "76be0e2d0c71477513f52ccbdb0ac51a7fa3d85e82ffe5d03c1272b2d3e710fe",
+      "bytes": 14007,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/local_gguf_client.py",
+        "sha256": "76be0e2d0c71477513f52ccbdb0ac51a7fa3d85e82ffe5d03c1272b2d3e710fe"
+      }
+    },
+    "src/proteinevo/models.py": {
+      "sha256": "1d8b4c16cdb83cfaae9d8b03bc63c377831356a78ef005541eae36826d4d9284",
+      "bytes": 5828,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/models.py",
+        "sha256": "1d8b4c16cdb83cfaae9d8b03bc63c377831356a78ef005541eae36826d4d9284"
+      }
+    },
+    "src/proteinevo/oracle.py": {
+      "sha256": "604af064e7c14b62c49341383c2bc13df0440b2d9cad731ec95e7073d26bf51d",
+      "bytes": 2726,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/oracle.py",
+        "sha256": "604af064e7c14b62c49341383c2bc13df0440b2d9cad731ec95e7073d26bf51d"
+      }
+    },
+    "src/proteinevo/p1_protocol.py": {
+      "sha256": "fcb226ca16ab4bdab311f4f519d7637068a202863d053c59dca0b9eb6f5a53b2",
+      "bytes": 6189,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/p1_protocol.py",
+        "sha256": "fcb226ca16ab4bdab311f4f519d7637068a202863d053c59dca0b9eb6f5a53b2"
+      }
+    },
+    "src/proteinevo/residual_model.py": {
+      "sha256": "c8ee58e6a3227a5f453393af9683658aa1f8fe591fa5c4b8345dffa0319e264e",
+      "bytes": 12174,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/residual_model.py",
+        "sha256": "c8ee58e6a3227a5f453393af9683658aa1f8fe591fa5c4b8345dffa0319e264e"
+      }
+    },
+    "src/proteinevo/scientific_action_view.py": {
+      "sha256": "3b562866efe7f50a11aa00479381f839684652793a9db16b88297ebbde6d06a1",
+      "bytes": 2112,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/scientific_action_view.py",
+        "sha256": "3b562866efe7f50a11aa00479381f839684652793a9db16b88297ebbde6d06a1"
+      }
+    },
+    "src/proteinevo/study_support.py": {
+      "sha256": "bdfded28af99a2f1b1c13b7ada8671c959dd81820e2481e8660131ec04c6ce76",
+      "bytes": 5683,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/study_support.py",
+        "sha256": "bdfded28af99a2f1b1c13b7ada8671c959dd81820e2481e8660131ec04c6ce76"
+      }
+    },
+    "src/proteinevo/workbench/__init__.py": {
+      "sha256": "0dcf2710af054f1dc11f41472ffe2e014492353bbbbb77a47fe138d7156e891a",
+      "bytes": 119,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench/__init__.py",
+        "sha256": "0dcf2710af054f1dc11f41472ffe2e014492353bbbbb77a47fe138d7156e891a"
+      }
+    },
+    "src/proteinevo/workbench/llm.py": {
+      "sha256": "2bb914121e3d122f42f25cb9a8985ac5649a968b3a4782c8721f609ff3b3eee3",
+      "bytes": 10387,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench/llm.py",
+        "sha256": "2bb914121e3d122f42f25cb9a8985ac5649a968b3a4782c8721f609ff3b3eee3"
+      }
+    },
+    "src/proteinevo/workbench/run.py": {
+      "sha256": "7bd187e723b9a831708eb766908e589114d8f52c786b25fda7b9a7e98dc72389",
+      "bytes": 14659,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench/run.py",
+        "sha256": "7bd187e723b9a831708eb766908e589114d8f52c786b25fda7b9a7e98dc72389"
+      }
+    },
+    "src/proteinevo/workbench/science.py": {
+      "sha256": "fbc074a16800aff96a2e4b3610f3c6573d5aac54f10a5570d36aa211fb1ac200",
+      "bytes": 12834,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench/science.py",
+        "sha256": "fbc074a16800aff96a2e4b3610f3c6573d5aac54f10a5570d36aa211fb1ac200"
+      }
+    },
+    "src/proteinevo/workbench_v2/__init__.py": {
+      "sha256": "1bebd9c610b57aad13f9814e9fec9fdea76618a49b7e4d472ed0cae403b2ff36",
+      "bytes": 108,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench_v2/__init__.py",
+        "sha256": "1bebd9c610b57aad13f9814e9fec9fdea76618a49b7e4d472ed0cae403b2ff36"
+      }
+    },
+    "src/proteinevo/workbench_v2/llm.py": {
+      "sha256": "181a615617b02d9a51a8929e65596a6685884ddbe1b5bffbd104e86b9e3963dd",
+      "bytes": 9768,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench_v2/llm.py",
+        "sha256": "181a615617b02d9a51a8929e65596a6685884ddbe1b5bffbd104e86b9e3963dd"
+      }
+    },
+    "src/proteinevo/workbench_v2/science.py": {
+      "sha256": "483f18b677216e3eab93344580512bdd4909553946ef8d9771165227dfd12512",
+      "bytes": 8887,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench_v2/science.py",
+        "sha256": "483f18b677216e3eab93344580512bdd4909553946ef8d9771165227dfd12512"
+      }
+    },
+    "src/proteinevo/workbench_v2/settings.py": {
+      "sha256": "3567db505cd2169c338ec241f40d6bea0cc1a9f71bf4e5739db3f37653114c7c",
+      "bytes": 3263,
+      "kind": "preserved_scientific_source_or_result",
+      "source": {
+        "original_project_path": "src/proteinevo/workbench_v2/settings.py",
+        "sha256": "3567db505cd2169c338ec241f40d6bea0cc1a9f71bf4e5739db3f37653114c7c"
+      }
+    },
+    "tests/test_demo.cjs": {
+      "sha256": "bb4a8902d386afdbb786bf0643326c50901a131e579ce126f495f9d7bc955f9e",
+      "bytes": 4383,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    },
+    "tests/test_workflow.py": {
+      "sha256": "67f8606dca916030daed24dcc1138d77d6843fb8a7f155ac2b579ef3ec4ad1cb",
+      "bytes": 5079,
+      "kind": "curated_entrypoint_or_derived_report_asset"
+    }
+  },
+  "verification": {
+    "CPU_three_round": true,
+    "real_Llama_three_round": true,
+    "actual_new_engineering_Llama_calls": 6,
+    "formal_result_changes": false,
+    "workflow_tests_passed": 9,
+    "demo_logic_tests_passed": true,
+    "browser_visual_QA": false
+  },
+  "note": "models/ and runs/ are validation-only and excluded from the submission."
+}

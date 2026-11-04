@@ -1,0 +1,22 @@
+{
+  "CPU_three_round": {
+    "methods": 3,
+    "reveals": 72,
+    "real_LLM_calls": 0
+  },
+  "real_Llama_three_round": {
+    "methods": 4,
+    "reveals": 96,
+    "real_LLM_calls": 6,
+    "weights_SHA256_verified": true
+  },
+  "workflow_tests_passed": 9,
+  "front_end_states_checked": 144,
+  "report_records_checked": 2304,
+  "formal_runs_repeated": false,
+  "new_formal_assays": 0,
+  "P2_retrained": false,
+  "browser_visual_QA": false,
+  "browser_preview_limitation": "Browser automation disabled; DOM interaction tests and native publication verification used",
+  "engineering_preflight_issue": "First Llama verification stopped before inference because weights link was denied. Failed directory retained; permitted link created, separate v2 engineering run completed."
+}

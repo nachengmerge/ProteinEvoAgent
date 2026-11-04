@@ -1,0 +1,743 @@
+[
+  {
+    "observedN": 512,
+    "initialBest": 4.77448984763,
+    "bestKnown": 4.77448984763,
+    "topObserved": [
+      {
+        "variant": "VHGM",
+        "fitness": 4.77448984763
+      },
+      {
+        "variant": "FYGV",
+        "fitness": 4.11276429473
+      },
+      {
+        "variant": "VWGV",
+        "fitness": 3.90146075608
+      },
+      {
+        "variant": "VYGV",
+        "fitness": 3.89146109067
+      },
+      {
+        "variant": "IFGV",
+        "fitness": 3.16744549033
+      }
+    ],
+    "actions": [
+      {
+        "id": "40:D>W@IDGV/LDGV",
+        "substitution": "40:D>W",
+        "site": 40,
+        "intent": {
+          "question": "maximize_binding",
+          "evidence_id": "C:GDGV>GWGV",
+          "response_to": "NEW",
+          "reason": "Predicted increase in binding energy"
+        },
+        "scope": {
+          "backgrounds": [
+            "IDGV",
+            "LDGV"
+          ],
+          "differing_positions": [
+            39
+          ],
+          "single_background_site": 39,
+          "fixed_background": {
+            "41": "G",
+            "54": "V"
+          },
+          "design": "complete_2x2_cycle_two_known_parents_two_unknown_children"
+        },
+        "evidence": [
+          {
+            "evidence_id": "C:GDGV>GWGV",
+            "substitution": "40:D>W",
+            "parent": "GDGV",
+            "child": "GWGV",
+            "background": "G_GV",
+            "parent_fitness": 0.00829790573568,
+            "child_fitness": 0.0685208337028,
+            "delta": 0.060222927967120005,
+            "delta_log1p": 0.05801162628115994,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          },
+          {
+            "evidence_id": "C:VDGV>VWGV",
+            "substitution": "40:D>W",
+            "parent": "VDGV",
+            "child": "VWGV",
+            "background": "V_GV",
+            "parent_fitness": 1.0,
+            "child_fitness": 3.90146075608,
+            "delta": 2.90146075608,
+            "delta_log1p": 0.8963860936153542,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": true
+          },
+          {
+            "evidence_id": "C:VDIV>VWIV",
+            "substitution": "40:D>W",
+            "parent": "VDIV",
+            "child": "VWIV",
+            "background": "V_IV",
+            "parent_fitness": 0.00342405539668,
+            "child_fitness": 0.00312982600926,
+            "delta": -0.0002942293874200002,
+            "delta_log1p": -0.00029326836648178216,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          }
+        ],
+        "positiveContexts": 5,
+        "negativeContexts": 1,
+        "medianObservedDelta": 0.06578432125586,
+        "feedback": [
+          {
+            "parent": "IDGV",
+            "child": "IWGV",
+            "parentActual": 1.4459050863,
+            "childPrediction": 3.10406764348348,
+            "childActual": 3.72027820633,
+            "actualDelta": 2.27437312003
+          },
+          {
+            "parent": "LDGV",
+            "child": "LWGV",
+            "parentActual": 1.69016355375,
+            "childPrediction": 3.1050850550333657,
+            "childActual": 4.04596052161,
+            "actualDelta": 2.35579696786
+          }
+        ]
+      },
+      {
+        "id": "54:E>T@VHGE/VWGE",
+        "substitution": "54:E>T",
+        "site": 54,
+        "intent": {
+          "question": "maximize_binding",
+          "evidence_id": "C:VDGE>VDGT",
+          "response_to": "NEW",
+          "reason": "Predicted increase in binding energy"
+        },
+        "scope": {
+          "backgrounds": [
+            "VHGE",
+            "VWGE"
+          ],
+          "differing_positions": [
+            40
+          ],
+          "single_background_site": 40,
+          "fixed_background": {
+            "39": "V",
+            "41": "G"
+          },
+          "design": "complete_2x2_cycle_two_known_parents_two_unknown_children"
+        },
+        "evidence": [
+          {
+            "evidence_id": "C:VDGE>VDGT",
+            "substitution": "54:E>T",
+            "parent": "VDGE",
+            "child": "VDGT",
+            "background": "VDG_",
+            "parent_fitness": 0.0353071305266,
+            "child_fitness": 0.615188984875,
+            "delta": 0.5798818543484,
+            "delta_log1p": 0.44475384115939615,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": true
+          }
+        ],
+        "positiveContexts": 1,
+        "negativeContexts": 0,
+        "medianObservedDelta": 0.5798818543484,
+        "feedback": [
+          {
+            "parent": "VHGE",
+            "child": "VHGT",
+            "parentActual": 0.189591479719,
+            "childPrediction": 2.1894209384918213,
+            "childActual": 1.2615980252,
+            "actualDelta": 1.0720065454810002
+          },
+          {
+            "parent": "VWGE",
+            "child": "VWGT",
+            "parentActual": 0.211435715426,
+            "childPrediction": 2.0943639278411865,
+            "childActual": 1.09720069157,
+            "actualDelta": 0.8857649761440001
+          }
+        ]
+      }
+    ],
+    "rawCalls": [
+      {
+        "callId": "4f74f685ef22442b9e0b9130a1216777",
+        "input": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nPlan virtual GB1 binding experiments at sites39,40,41,54. Select ONE allowed action and a scientific question. Two measured parents differ at exactly one background site; the two single-edit children are UNKNOWN. A deterministic tool has already calculated the child point forecasts, parent-child differences, interaction difference and member agreement. These are MODEL predictions, not measured child fitness. You do not perform arithmetic or output direction/interaction labels. Those quantities are owned by the tool. Choose question maximize_binding, contrast_backgrounds, or resolve_uncertainty. Consider predicted value, opportunity cost, background contrast, observed evidence and model disagreement. Member agreement is not calibrated confidence. Sparse evidence is not proof of benefit. Related revisions only describe their measured contexts, never all residues. C:parent>child IDs are already observed contrasts; MODEL_FORECAST means no observed contrast is cited. Return JSON action_id,question,evidence_id,response_to,reason. Reason at most120 characters. No measured child-fitness, folding-stability or statistical-significance claims.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{\"observed_n\":512,\"best_known\":4.77448984763,\"top_observed\":[{\"variant\":\"VHGM\",\"fitness\":4.77448984763},{\"variant\":\"FYGV\",\"fitness\":4.11276429473},{\"variant\":\"VWGV\",\"fitness\":3.90146075608},{\"variant\":\"VYGV\",\"fitness\":3.89146109067}],\"quantitative_author\":\"deterministic_prediction_tool\",\"actions\":[{\"id\":\"40:D>W@IDGV/LDGV\",\"edit\":\"40:D>W\",\"scope\":{\"backgrounds\":[\"IDGV\",\"LDGV\"],\"differing_positions\":[39],\"single_background_site\":39,\"fixed_background\":{\"41\":\"G\",\"54\":\"V\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"IDGV\",\"parent_fitness\":1.4459050863,\"unknown_child\":\"IWGV\",\"child_prediction\":3.10406764348348,\"point_delta\":1.6581625571834797,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":2,\"median_delta\":1.48084184202356,\"direction_counts\":{\"increase\":2},\"direction\":\"increase\",\"evidence_ids\":[\"C:GDGV>GWGV\",\"C:VDGV>VWGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"LDGV\",\"parent_fitness\":1.69016355375,\"unknown_child\":\"LWGV\",\"child_prediction\":3.1050850550333657,\"point_delta\":1.4149215012833658,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":2,\"median_delta\":1.48084184202356,\"direction_counts\":{\"increase\":2},\"direction\":\"increase\",\"evidence_ids\":[\"C:GDGV>GWGV\",\"C:VDGV>VWGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.24324105590011383,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.2980638187073241,-0.4034047763489257,-0.028254572644091702],\"interaction_agreement\":0.6666666666666666,\"interaction\":\"unresolved\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.06578,\"n_contexts\":6,\"child_prediction\":[3.10407,3.10509],\"predicted_delta\":[1.65816,1.41492],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:GDGV>GWGV\",\"delta\":0.060222927967120005},{\"id\":\"C:VDGV>VWGV\",\"delta\":2.90146075608},{\"id\":\"C:VDIV>VWIV\",\"delta\":-0.0002942293874200002}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:E>T@VHGE/VWGE\",\"edit\":\"54:E>T\",\"scope\":{\"backgrounds\":[\"VHGE\",\"VWGE\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"39\":\"V\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VHGE\",\"parent_fitness\":0.189591479719,\"unknown_child\":\"VHGT\",\"child_prediction\":2.1894209384918213,\"point_delta\":1.9998294587728214,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.5798818543484,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGE>VDGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VWGE\",\"parent_fitness\":0.211435715426,\"unknown_child\":\"VWGT\",\"child_prediction\":2.0943639278411865,\"point_delta\":1.8829282124151865,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.5798818543484,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGE>VDGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.11690124635763473,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[0.4814983927720038,-0.3199246800429374,-0.5122774518019706],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.57988,\"n_contexts\":1,\"child_prediction\":[2.18942,2.09436],\"predicted_delta\":[1.99983,1.88293],\"batch_cost_alone\":0.09862,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:VDGE>VDGT\",\"delta\":0.5798818543484}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:Q>M@VCGQ/VFGQ\",\"edit\":\"54:Q>M\",\"scope\":{\"backgrounds\":[\"VCGQ\",\"VFGQ\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"39\":\"V\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VCGQ\",\"parent_fitness\":0.180676825186,\"unknown_child\":\"VCGM\",\"child_prediction\":1.9655367533365886,\"point_delta\":1.7848599281505884,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.461347229966,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGQ>VDGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VFGQ\",\"parent_fitness\":0.451043511318,\"unknown_child\":\"VFGM\",\"child_prediction\":3.0240785280863443,\"point_delta\":2.5730350167683445,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.461347229966,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGQ>VDGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":0.7881750886177561,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[1.1418392483925364,0.625314218256428,0.5973717992043039],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.46135,\"n_contexts\":1,\"child_prediction\":[1.96554,3.02408],\"predicted_delta\":[1.78486,2.57304],\"batch_cost_alone\":0.0582,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:VDGQ>VDGM\",\"delta\":0.461347229966}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:V>M@FHGV/FYGV\",\"edit\":\"54:V>M\",\"scope\":{\"backgrounds\":[\"FHGV\",\"FYGV\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"39\":\"F\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"FHGV\",\"parent_fitness\":2.80379843854,\"unknown_child\":\"FHGM\",\"child_prediction\":3.207039992014567,\"point_delta\":0.4032415534745672,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":1.6933240399799998,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VHGV>VHGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"FYGV\",\"parent_fitness\":4.11276429473,\"unknown_child\":\"FYGM\",\"child_prediction\":3.505802313486735,\"point_delta\":-0.6069619812432648,\"point_direction\":\"decrease\",\"consensus_direction\":\"decrease\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":8,\"median_delta\":0.16020245527285,\"direction_counts\":{\"decrease\":3,\"increase\":5},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:ADGV>ADGM\",\"C:QDGV>QDGM\",\"C:SDGV>SDGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-1.010203534717832,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.8285962883189062,-1.2371985260203222,-0.9648157898142675],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.1602,\"n_contexts\":8,\"child_prediction\":[3.20704,3.5058],\"predicted_delta\":[0.40324,-0.60696],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:ADGV>ADGM\",\"delta\":0.1893334011958},{\"id\":\"C:VHGV>VHGM\",\"delta\":1.6933240399799998},{\"id\":\"C:VVGV>VVGM\",\"delta\":-0.63994046736}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"}],\"step\":1,\"prior_selected\":[]}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "rawOutput": "{\"action_id\":\"40:D>W@IDGV/LDGV\",\"question\":\"maximize_binding\",\"evidence_id\":\"C:GDGV>GWGV\",\"response_to\":\"NEW\",\"reason\":\"Predicted increase in binding energy\"}",
+        "finish": "stop"
+      },
+      {
+        "callId": "4d0938d3d6e84b26a69a24a0d8c6d040",
+        "input": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nPlan virtual GB1 binding experiments at sites39,40,41,54. Select ONE allowed action and a scientific question. Two measured parents differ at exactly one background site; the two single-edit children are UNKNOWN. A deterministic tool has already calculated the child point forecasts, parent-child differences, interaction difference and member agreement. These are MODEL predictions, not measured child fitness. You do not perform arithmetic or output direction/interaction labels. Those quantities are owned by the tool. Choose question maximize_binding, contrast_backgrounds, or resolve_uncertainty. Consider predicted value, opportunity cost, background contrast, observed evidence and model disagreement. Member agreement is not calibrated confidence. Sparse evidence is not proof of benefit. Related revisions only describe their measured contexts, never all residues. C:parent>child IDs are already observed contrasts; MODEL_FORECAST means no observed contrast is cited. Return JSON action_id,question,evidence_id,response_to,reason. Reason at most120 characters. No measured child-fitness, folding-stability or statistical-significance claims.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{\"observed_n\":512,\"best_known\":4.77448984763,\"top_observed\":[{\"variant\":\"VHGM\",\"fitness\":4.77448984763},{\"variant\":\"FYGV\",\"fitness\":4.11276429473},{\"variant\":\"VWGV\",\"fitness\":3.90146075608},{\"variant\":\"VYGV\",\"fitness\":3.89146109067}],\"quantitative_author\":\"deterministic_prediction_tool\",\"actions\":[{\"id\":\"54:E>T@VHGE/VWGE\",\"edit\":\"54:E>T\",\"scope\":{\"backgrounds\":[\"VHGE\",\"VWGE\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"39\":\"V\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VHGE\",\"parent_fitness\":0.189591479719,\"unknown_child\":\"VHGT\",\"child_prediction\":2.1894209384918213,\"point_delta\":1.9998294587728214,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.5798818543484,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGE>VDGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VWGE\",\"parent_fitness\":0.211435715426,\"unknown_child\":\"VWGT\",\"child_prediction\":2.0943639278411865,\"point_delta\":1.8829282124151865,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.5798818543484,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGE>VDGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.11690124635763473,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[0.4814983927720038,-0.3199246800429374,-0.5122774518019706],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.57988,\"n_contexts\":1,\"child_prediction\":[2.18942,2.09436],\"predicted_delta\":[1.99983,1.88293],\"batch_cost_alone\":0.09862,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:VDGE>VDGT\",\"delta\":0.5798818543484}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:Q>M@VCGQ/VFGQ\",\"edit\":\"54:Q>M\",\"scope\":{\"backgrounds\":[\"VCGQ\",\"VFGQ\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"39\":\"V\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VCGQ\",\"parent_fitness\":0.180676825186,\"unknown_child\":\"VCGM\",\"child_prediction\":1.9655367533365886,\"point_delta\":1.7848599281505884,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.461347229966,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGQ>VDGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VFGQ\",\"parent_fitness\":0.451043511318,\"unknown_child\":\"VFGM\",\"child_prediction\":3.0240785280863443,\"point_delta\":2.5730350167683445,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.461347229966,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGQ>VDGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":0.7881750886177561,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[1.1418392483925364,0.625314218256428,0.5973717992043039],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.46135,\"n_contexts\":1,\"child_prediction\":[1.96554,3.02408],\"predicted_delta\":[1.78486,2.57304],\"batch_cost_alone\":0.0582,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:VDGQ>VDGM\",\"delta\":0.461347229966}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:V>M@FHGV/FYGV\",\"edit\":\"54:V>M\",\"scope\":{\"backgrounds\":[\"FHGV\",\"FYGV\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"39\":\"F\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"FHGV\",\"parent_fitness\":2.80379843854,\"unknown_child\":\"FHGM\",\"child_prediction\":3.207039992014567,\"point_delta\":0.4032415534745672,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":1.6933240399799998,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VHGV>VHGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"FYGV\",\"parent_fitness\":4.11276429473,\"unknown_child\":\"FYGM\",\"child_prediction\":3.505802313486735,\"point_delta\":-0.6069619812432648,\"point_direction\":\"decrease\",\"consensus_direction\":\"decrease\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":8,\"median_delta\":0.16020245527285,\"direction_counts\":{\"decrease\":3,\"increase\":5},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:ADGV>ADGM\",\"C:QDGV>QDGM\",\"C:SDGV>SDGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-1.010203534717832,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.8285962883189062,-1.2371985260203222,-0.9648157898142675],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.1602,\"n_contexts\":8,\"child_prediction\":[3.20704,3.5058],\"predicted_delta\":[0.40324,-0.60696],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:ADGV>ADGM\",\"delta\":0.1893334011958},{\"id\":\"C:VHGV>VHGM\",\"delta\":1.6933240399799998},{\"id\":\"C:VVGV>VVGM\",\"delta\":-0.63994046736}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"}],\"step\":2,\"prior_selected\":[\"40:D>W@IDGV/LDGV\"]}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "rawOutput": "{\"action_id\":\"54:E>T@VHGE/VWGE\",\"question\":\"maximize_binding\",\"evidence_id\":\"C:VDGE>VDGT\",\"response_to\":\"NEW\",\"reason\":\"Predicted increase in binding energy\"}",
+        "finish": "stop"
+      }
+    ],
+    "siteStatistics": [
+      {
+        "site": 39,
+        "residues": {
+          "F": 2,
+          "I": 3,
+          "L": 4,
+          "V": 5,
+          "M": 2
+        },
+        "nonWT": 11
+      },
+      {
+        "site": 40,
+        "residues": {
+          "Y": 4,
+          "H": 6,
+          "W": 4,
+          "F": 2
+        },
+        "nonWT": 16
+      },
+      {
+        "site": 41,
+        "residues": {
+          "G": 16
+        },
+        "nonWT": 0
+      },
+      {
+        "site": 54,
+        "residues": {
+          "M": 7,
+          "V": 6,
+          "A": 1,
+          "T": 2
+        },
+        "nonWT": 10
+      }
+    ],
+    "nextObservedN": 528,
+    "nextActions": [
+      "54:V>M@IFGV/LFGV",
+      "40:D>W@VDGC/VDGF"
+    ]
+  },
+  {
+    "observedN": 528,
+    "initialBest": 4.77448984763,
+    "bestKnown": 5.00280845609,
+    "topObserved": [
+      {
+        "variant": "VWGM",
+        "fitness": 5.00280845609
+      },
+      {
+        "variant": "VHGM",
+        "fitness": 4.77448984763
+      },
+      {
+        "variant": "IYGV",
+        "fitness": 4.38774529032
+      },
+      {
+        "variant": "FYGV",
+        "fitness": 4.11276429473
+      },
+      {
+        "variant": "LWGV",
+        "fitness": 4.04596052161
+      }
+    ],
+    "actions": [
+      {
+        "id": "54:V>M@IFGV/LFGV",
+        "substitution": "54:V>M",
+        "site": 54,
+        "intent": {
+          "question": "maximize_binding",
+          "evidence_id": "C:VHGV>VHGM",
+          "response_to": "NEW",
+          "reason": "Predicted increase in binding energy"
+        },
+        "scope": {
+          "backgrounds": [
+            "IFGV",
+            "LFGV"
+          ],
+          "differing_positions": [
+            39
+          ],
+          "single_background_site": 39,
+          "fixed_background": {
+            "40": "F",
+            "41": "G"
+          },
+          "design": "complete_2x2_cycle_two_known_parents_two_unknown_children"
+        },
+        "evidence": [
+          {
+            "evidence_id": "C:ADGV>ADGM",
+            "substitution": "54:V>M",
+            "parent": "ADGV",
+            "child": "ADGM",
+            "background": "ADG_",
+            "parent_fitness": 0.0619096557142,
+            "child_fitness": 0.25124305691,
+            "delta": 0.1893334011958,
+            "delta_log1p": 0.16406865345669153,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          },
+          {
+            "evidence_id": "C:FYGV>FYGM",
+            "substitution": "54:V>M",
+            "parent": "FYGV",
+            "child": "FYGM",
+            "background": "FYG_",
+            "parent_fitness": 4.11276429473,
+            "child_fitness": 2.63255351214,
+            "delta": -1.48021078259,
+            "delta_log1p": -0.3418043679789453,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          },
+          {
+            "evidence_id": "C:VHGV>VHGM",
+            "substitution": "54:V>M",
+            "parent": "VHGV",
+            "child": "VHGM",
+            "background": "VHG_",
+            "parent_fitness": 3.08116580765,
+            "child_fitness": 4.77448984763,
+            "delta": 1.6933240399799998,
+            "delta_log1p": 0.34706722966299464,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          }
+        ],
+        "positiveContexts": 7,
+        "negativeContexts": 6,
+        "medianObservedDelta": 0.1310715093499,
+        "feedback": [
+          {
+            "parent": "IFGV",
+            "child": "IFGM",
+            "parentActual": 3.16744549033,
+            "childPrediction": 3.544523239135742,
+            "childActual": 3.50893706815,
+            "actualDelta": 0.34149157781999984
+          },
+          {
+            "parent": "LFGV",
+            "child": "LFGM",
+            "parentActual": 4.02906611368,
+            "childPrediction": 3.2927517890930176,
+            "childActual": 2.86570385726,
+            "actualDelta": -1.1633622564199997
+          }
+        ]
+      },
+      {
+        "id": "40:D>W@VDGC/VDGF",
+        "substitution": "40:D>W",
+        "site": 40,
+        "intent": {
+          "question": "maximize_binding",
+          "evidence_id": "C:VDGM>VWGM",
+          "response_to": "NEW",
+          "reason": "Predicted increase in binding energy"
+        },
+        "scope": {
+          "backgrounds": [
+            "VDGC",
+            "VDGF"
+          ],
+          "differing_positions": [
+            54
+          ],
+          "single_background_site": 54,
+          "fixed_background": {
+            "39": "V",
+            "41": "G"
+          },
+          "design": "complete_2x2_cycle_two_known_parents_two_unknown_children"
+        },
+        "evidence": [
+          {
+            "evidence_id": "C:GDGV>GWGV",
+            "substitution": "40:D>W",
+            "parent": "GDGV",
+            "child": "GWGV",
+            "background": "G_GV",
+            "parent_fitness": 0.00829790573568,
+            "child_fitness": 0.0685208337028,
+            "delta": 0.060222927967120005,
+            "delta_log1p": 0.05801162628115994,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          },
+          {
+            "evidence_id": "C:VDGM>VWGM",
+            "substitution": "40:D>W",
+            "parent": "VDGM",
+            "child": "VWGM",
+            "background": "V_GM",
+            "parent_fitness": 0.585648853727,
+            "child_fitness": 5.00280845609,
+            "delta": 4.417159602363,
+            "delta_log1p": 1.3312337407334378,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          },
+          {
+            "evidence_id": "C:VDIV>VWIV",
+            "substitution": "40:D>W",
+            "parent": "VDIV",
+            "child": "VWIV",
+            "background": "V_IV",
+            "parent_fitness": 0.00342405539668,
+            "child_fitness": 0.00312982600926,
+            "delta": -0.0002942293874200002,
+            "delta_log1p": -0.00029326836648178216,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          }
+        ],
+        "positiveContexts": 9,
+        "negativeContexts": 1,
+        "medianObservedDelta": 0.32907014579720006,
+        "feedback": [
+          {
+            "parent": "VDGC",
+            "child": "VWGC",
+            "parentActual": 1.41393590647,
+            "childPrediction": 2.930392583211263,
+            "childActual": 4.23915557841,
+            "actualDelta": 2.8252196719400002
+          },
+          {
+            "parent": "VDGF",
+            "child": "VWGF",
+            "parentActual": 0.820788193905,
+            "childPrediction": 3.205491304397583,
+            "childActual": 5.3907325057,
+            "actualDelta": 4.569944311795
+          }
+        ]
+      }
+    ],
+    "rawCalls": [
+      {
+        "callId": "28f6c30f3d2545a8865bde962f0708c8",
+        "input": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nPlan virtual GB1 binding experiments at sites39,40,41,54. Select ONE allowed action and a scientific question. Two measured parents differ at exactly one background site; the two single-edit children are UNKNOWN. A deterministic tool has already calculated the child point forecasts, parent-child differences, interaction difference and member agreement. These are MODEL predictions, not measured child fitness. You do not perform arithmetic or output direction/interaction labels. Those quantities are owned by the tool. Choose question maximize_binding, contrast_backgrounds, or resolve_uncertainty. Consider predicted value, opportunity cost, background contrast, observed evidence and model disagreement. Member agreement is not calibrated confidence. Sparse evidence is not proof of benefit. Related revisions only describe their measured contexts, never all residues. C:parent>child IDs are already observed contrasts; MODEL_FORECAST means no observed contrast is cited. Return JSON action_id,question,evidence_id,response_to,reason. Reason at most120 characters. No measured child-fitness, folding-stability or statistical-significance claims.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{\"observed_n\":528,\"best_known\":5.00280845609,\"top_observed\":[{\"variant\":\"VWGM\",\"fitness\":5.00280845609},{\"variant\":\"VHGM\",\"fitness\":4.77448984763},{\"variant\":\"IYGV\",\"fitness\":4.38774529032},{\"variant\":\"FYGV\",\"fitness\":4.11276429473}],\"quantitative_author\":\"deterministic_prediction_tool\",\"actions\":[{\"id\":\"39:V>L@VAGV/VYGV\",\"edit\":\"39:V>L\",\"scope\":{\"backgrounds\":[\"VAGV\",\"VYGV\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"41\":\"G\",\"54\":\"V\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VAGV\",\"parent_fitness\":2.40124349574,\"unknown_child\":\"LAGV\",\"child_prediction\":2.993650515874227,\"point_delta\":0.5924070201342267,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":5,\"median_delta\":0.28510161328000017,\"direction_counts\":{\"increase\":5},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGV>LDGV\",\"C:VFGV>LFGV\",\"C:VHGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VYGV\",\"parent_fitness\":3.89146109067,\"unknown_child\":\"LYGV\",\"child_prediction\":3.8098554611206055,\"point_delta\":-0.08160562954939454,\"point_direction\":\"decrease\",\"consensus_direction\":\"uncertain\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":5,\"median_delta\":0.28510161328000017,\"direction_counts\":{\"increase\":5},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGV>LDGV\",\"C:VFGV>LFGV\",\"C:VHGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.6740126496836213,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.43440452081806136,-0.8131183670247264,-0.774515061208076],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.21015,\"n_contexts\":8,\"child_prediction\":[2.99365,3.80986],\"predicted_delta\":[0.59241,-0.08161],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:VDGV>LDGV\",\"delta\":0.6901635537499999},{\"id\":\"C:VFGV>LFGV\",\"delta\":0.9745174626199997},{\"id\":\"C:VHGM>LHGM\",\"delta\":-1.9589064991199998}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"40:D>W@VDGC/VDGF\",\"edit\":\"40:D>W\",\"scope\":{\"backgrounds\":[\"VDGC\",\"VDGF\"],\"differing_positions\":[54],\"single_background_site\":54,\"fixed_background\":{\"39\":\"V\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VDGC\",\"parent_fitness\":1.41393590647,\"unknown_child\":\"VWGC\",\"child_prediction\":2.930392583211263,\"point_delta\":1.516456676741263,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":4,\"median_delta\":1.6917362313875002,\"direction_counts\":{\"increase\":4},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGE>VWGE\",\"C:VDGM>VWGM\",\"C:VDGT>VWGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VDGF\",\"parent_fitness\":0.820788193905,\"unknown_child\":\"VWGF\",\"child_prediction\":3.205491304397583,\"point_delta\":2.384703110492583,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":4,\"median_delta\":1.6917362313875002,\"direction_counts\":{\"increase\":4},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGE>VWGE\",\"C:VDGM>VWGM\",\"C:VDGT>VWGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":0.8682464337513199,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[0.5822691496377539,1.031065421915586,0.9914047297006201],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.32907,\"n_contexts\":10,\"child_prediction\":[2.93039,3.20549],\"predicted_delta\":[1.51646,2.3847],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:GDGV>GWGV\",\"delta\":0.060222927967120005},{\"id\":\"C:VDGM>VWGM\",\"delta\":4.417159602363},{\"id\":\"C:VDIV>VWIV\",\"delta\":-0.0002942293874200002}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:V>M@IFGV/LFGV\",\"edit\":\"54:V>M\",\"scope\":{\"backgrounds\":[\"IFGV\",\"LFGV\"],\"differing_positions\":[39],\"single_background_site\":39,\"fixed_background\":{\"40\":\"F\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"IFGV\",\"parent_fitness\":3.16744549033,\"unknown_child\":\"IFGM\",\"child_prediction\":3.544523239135742,\"point_delta\":0.3770777488057422,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":0.97907544117,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VFGV>VFGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"LFGV\",\"parent_fitness\":4.02906611368,\"unknown_child\":\"LFGM\",\"child_prediction\":3.2927517890930176,\"point_delta\":-0.7363143245869823,\"point_direction\":\"decrease\",\"consensus_direction\":\"decrease\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":2,\"median_delta\":0.2188484178750001,\"direction_counts\":{\"decrease\":1,\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:LHGV>LHGM\",\"C:VFGV>VFGM\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-1.1133920733927245,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-1.0555212085245604,-1.4717256610392089,-0.8129293506144042],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.13107,\"n_contexts\":13,\"child_prediction\":[3.54452,3.29275],\"predicted_delta\":[0.37708,-0.73631],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:ADGV>ADGM\",\"delta\":0.1893334011958},{\"id\":\"C:FYGV>FYGM\",\"delta\":-1.48021078259},{\"id\":\"C:VHGV>VHGM\",\"delta\":1.6933240399799998}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"}],\"step\":1,\"prior_selected\":[]}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "rawOutput": "{\"action_id\":\"54:V>M@IFGV/LFGV\",\"question\":\"maximize_binding\",\"evidence_id\":\"C:VHGV>VHGM\",\"response_to\":\"NEW\",\"reason\":\"Predicted increase in binding energy\"}",
+        "finish": "stop"
+      },
+      {
+        "callId": "23c31c37212a47e38b7fbfc3c4cb6c2d",
+        "input": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nPlan virtual GB1 binding experiments at sites39,40,41,54. Select ONE allowed action and a scientific question. Two measured parents differ at exactly one background site; the two single-edit children are UNKNOWN. A deterministic tool has already calculated the child point forecasts, parent-child differences, interaction difference and member agreement. These are MODEL predictions, not measured child fitness. You do not perform arithmetic or output direction/interaction labels. Those quantities are owned by the tool. Choose question maximize_binding, contrast_backgrounds, or resolve_uncertainty. Consider predicted value, opportunity cost, background contrast, observed evidence and model disagreement. Member agreement is not calibrated confidence. Sparse evidence is not proof of benefit. Related revisions only describe their measured contexts, never all residues. C:parent>child IDs are already observed contrasts; MODEL_FORECAST means no observed contrast is cited. Return JSON action_id,question,evidence_id,response_to,reason. Reason at most120 characters. No measured child-fitness, folding-stability or statistical-significance claims.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{\"observed_n\":528,\"best_known\":5.00280845609,\"top_observed\":[{\"variant\":\"VWGM\",\"fitness\":5.00280845609},{\"variant\":\"VHGM\",\"fitness\":4.77448984763},{\"variant\":\"IYGV\",\"fitness\":4.38774529032},{\"variant\":\"FYGV\",\"fitness\":4.11276429473}],\"quantitative_author\":\"deterministic_prediction_tool\",\"actions\":[{\"id\":\"39:V>L@VAGV/VYGV\",\"edit\":\"39:V>L\",\"scope\":{\"backgrounds\":[\"VAGV\",\"VYGV\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"41\":\"G\",\"54\":\"V\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VAGV\",\"parent_fitness\":2.40124349574,\"unknown_child\":\"LAGV\",\"child_prediction\":2.993650515874227,\"point_delta\":0.5924070201342267,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":5,\"median_delta\":0.28510161328000017,\"direction_counts\":{\"increase\":5},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGV>LDGV\",\"C:VFGV>LFGV\",\"C:VHGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VYGV\",\"parent_fitness\":3.89146109067,\"unknown_child\":\"LYGV\",\"child_prediction\":3.8098554611206055,\"point_delta\":-0.08160562954939454,\"point_direction\":\"decrease\",\"consensus_direction\":\"uncertain\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":5,\"median_delta\":0.28510161328000017,\"direction_counts\":{\"increase\":5},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGV>LDGV\",\"C:VFGV>LFGV\",\"C:VHGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.6740126496836213,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.43440452081806136,-0.8131183670247264,-0.774515061208076],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.21015,\"n_contexts\":8,\"child_prediction\":[2.99365,3.80986],\"predicted_delta\":[0.59241,-0.08161],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:VDGV>LDGV\",\"delta\":0.6901635537499999},{\"id\":\"C:VFGV>LFGV\",\"delta\":0.9745174626199997},{\"id\":\"C:VHGM>LHGM\",\"delta\":-1.9589064991199998}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"40:D>W@VDGC/VDGF\",\"edit\":\"40:D>W\",\"scope\":{\"backgrounds\":[\"VDGC\",\"VDGF\"],\"differing_positions\":[54],\"single_background_site\":54,\"fixed_background\":{\"39\":\"V\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"VDGC\",\"parent_fitness\":1.41393590647,\"unknown_child\":\"VWGC\",\"child_prediction\":2.930392583211263,\"point_delta\":1.516456676741263,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":4,\"median_delta\":1.6917362313875002,\"direction_counts\":{\"increase\":4},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGE>VWGE\",\"C:VDGM>VWGM\",\"C:VDGT>VWGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"VDGF\",\"parent_fitness\":0.820788193905,\"unknown_child\":\"VWGF\",\"child_prediction\":3.205491304397583,\"point_delta\":2.384703110492583,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":4,\"median_delta\":1.6917362313875002,\"direction_counts\":{\"increase\":4},\"direction\":\"increase\",\"evidence_ids\":[\"C:VDGE>VWGE\",\"C:VDGM>VWGM\",\"C:VDGT>VWGT\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":0.8682464337513199,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[0.5822691496377539,1.031065421915586,0.9914047297006201],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.32907,\"n_contexts\":10,\"child_prediction\":[2.93039,3.20549],\"predicted_delta\":[1.51646,2.3847],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:GDGV>GWGV\",\"delta\":0.060222927967120005},{\"id\":\"C:VDGM>VWGM\",\"delta\":4.417159602363},{\"id\":\"C:VDIV>VWIV\",\"delta\":-0.0002942293874200002}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"}],\"step\":2,\"prior_selected\":[\"54:V>M@IFGV/LFGV\"]}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "rawOutput": "{\"action_id\":\"40:D>W@VDGC/VDGF\",\"question\":\"maximize_binding\",\"evidence_id\":\"C:VDGM>VWGM\",\"response_to\":\"NEW\",\"reason\":\"Predicted increase in binding energy\"}",
+        "finish": "stop"
+      }
+    ],
+    "siteStatistics": [
+      {
+        "site": 39,
+        "residues": {
+          "L": 8,
+          "V": 3,
+          "I": 4,
+          "F": 1
+        },
+        "nonWT": 13
+      },
+      {
+        "site": 40,
+        "residues": {
+          "Y": 4,
+          "W": 6,
+          "A": 1,
+          "F": 4,
+          "H": 1
+        },
+        "nonWT": 16
+      },
+      {
+        "site": 41,
+        "residues": {
+          "G": 16
+        },
+        "nonWT": 0
+      },
+      {
+        "site": 54,
+        "residues": {
+          "V": 3,
+          "M": 4,
+          "A": 4,
+          "C": 3,
+          "F": 2
+        },
+        "nonWT": 13
+      }
+    ],
+    "nextObservedN": 544,
+    "nextActions": [
+      "54:A>C@LFGA/LWGA",
+      "54:A>F@IWGA/LWGA"
+    ]
+  },
+  {
+    "observedN": 544,
+    "initialBest": 4.77448984763,
+    "bestKnown": 5.3907325057,
+    "topObserved": [
+      {
+        "variant": "VWGF",
+        "fitness": 5.3907325057
+      },
+      {
+        "variant": "LYGV",
+        "fitness": 5.07529943739
+      },
+      {
+        "variant": "VWGM",
+        "fitness": 5.00280845609
+      },
+      {
+        "variant": "VHGM",
+        "fitness": 4.77448984763
+      },
+      {
+        "variant": "IYGV",
+        "fitness": 4.38774529032
+      }
+    ],
+    "actions": [
+      {
+        "id": "54:A>C@LFGA/LWGA",
+        "substitution": "54:A>C",
+        "site": 54,
+        "intent": {
+          "question": "maximize_binding",
+          "evidence_id": "C:VDGA>VDGC",
+          "response_to": "NEW",
+          "reason": "Predicted increase in binding energy"
+        },
+        "scope": {
+          "backgrounds": [
+            "LFGA",
+            "LWGA"
+          ],
+          "differing_positions": [
+            40
+          ],
+          "single_background_site": 40,
+          "fixed_background": {
+            "39": "L",
+            "41": "G"
+          },
+          "design": "complete_2x2_cycle_two_known_parents_two_unknown_children"
+        },
+        "evidence": [
+          {
+            "evidence_id": "C:VDGA>VDGC",
+            "substitution": "54:A>C",
+            "parent": "VDGA",
+            "child": "VDGC",
+            "background": "VDG_",
+            "parent_fitness": 1.37294933339,
+            "child_fitness": 1.41393590647,
+            "delta": 0.040986573079999866,
+            "delta_log1p": 0.01712494562860678,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": true
+          },
+          {
+            "evidence_id": "C:VYGA>VYGC",
+            "substitution": "54:A>C",
+            "parent": "VYGA",
+            "child": "VYGC",
+            "background": "VYG_",
+            "parent_fitness": 2.40599752993,
+            "child_fitness": 4.0264439679,
+            "delta": 1.6204464379699997,
+            "delta_log1p": 0.38917491243326086,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          }
+        ],
+        "positiveContexts": 2,
+        "negativeContexts": 0,
+        "medianObservedDelta": 0.8307165055249998,
+        "feedback": [
+          {
+            "parent": "LFGA",
+            "child": "LFGC",
+            "parentActual": 2.47369898132,
+            "childPrediction": 3.017536242802938,
+            "childActual": 3.35884837877,
+            "actualDelta": 0.8851493974499998
+          },
+          {
+            "parent": "LWGA",
+            "child": "LWGC",
+            "parentActual": 2.74706776264,
+            "childPrediction": 3.7059144973754883,
+            "childActual": 3.50389826225,
+            "actualDelta": 0.7568304996099999
+          }
+        ]
+      },
+      {
+        "id": "54:A>F@IWGA/LWGA",
+        "substitution": "54:A>F",
+        "site": 54,
+        "intent": {
+          "question": "maximize_binding",
+          "evidence_id": "C:LFGA>LFGF",
+          "response_to": "NEW",
+          "reason": "Predicted increase in binding energy"
+        },
+        "scope": {
+          "backgrounds": [
+            "IWGA",
+            "LWGA"
+          ],
+          "differing_positions": [
+            39
+          ],
+          "single_background_site": 39,
+          "fixed_background": {
+            "40": "W",
+            "41": "G"
+          },
+          "design": "complete_2x2_cycle_two_known_parents_two_unknown_children"
+        },
+        "evidence": [
+          {
+            "evidence_id": "C:LFGA>LFGF",
+            "substitution": "54:A>F",
+            "parent": "LFGA",
+            "child": "LFGF",
+            "background": "LFG_",
+            "parent_fitness": 2.47369898132,
+            "child_fitness": 1.74921068929,
+            "delta": -0.7244882920300002,
+            "delta_log1p": -0.23390616664572983,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": false
+          },
+          {
+            "evidence_id": "C:VDGA>VDGF",
+            "substitution": "54:A>F",
+            "parent": "VDGA",
+            "child": "VDGF",
+            "background": "VDG_",
+            "parent_fitness": 1.37294933339,
+            "child_fitness": 0.820788193905,
+            "delta": -0.552161139485,
+            "delta_log1p": -0.26486414502259203,
+            "kind": "observed_single_edit_contrast",
+            "other_sites_match_WT": true
+          }
+        ],
+        "positiveContexts": 0,
+        "negativeContexts": 2,
+        "medianObservedDelta": -0.6383247157575,
+        "feedback": [
+          {
+            "parent": "IWGA",
+            "child": "IWGF",
+            "parentActual": 2.34593175792,
+            "childPrediction": 3.5140465100606284,
+            "childActual": 5.77203220934,
+            "actualDelta": 3.42610045142
+          },
+          {
+            "parent": "LWGA",
+            "child": "LWGF",
+            "parentActual": 2.74706776264,
+            "childPrediction": 3.2008326053619385,
+            "childActual": 2.82632723236,
+            "actualDelta": 0.0792594697200002
+          }
+        ]
+      }
+    ],
+    "rawCalls": [
+      {
+        "callId": "3c47a1b3916c4aa59976a759df01f0dc",
+        "input": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nPlan virtual GB1 binding experiments at sites39,40,41,54. Select ONE allowed action and a scientific question. Two measured parents differ at exactly one background site; the two single-edit children are UNKNOWN. A deterministic tool has already calculated the child point forecasts, parent-child differences, interaction difference and member agreement. These are MODEL predictions, not measured child fitness. You do not perform arithmetic or output direction/interaction labels. Those quantities are owned by the tool. Choose question maximize_binding, contrast_backgrounds, or resolve_uncertainty. Consider predicted value, opportunity cost, background contrast, observed evidence and model disagreement. Member agreement is not calibrated confidence. Sparse evidence is not proof of benefit. Related revisions only describe their measured contexts, never all residues. C:parent>child IDs are already observed contrasts; MODEL_FORECAST means no observed contrast is cited. Return JSON action_id,question,evidence_id,response_to,reason. Reason at most120 characters. No measured child-fitness, folding-stability or statistical-significance claims.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{\"observed_n\":544,\"best_known\":5.3907325057,\"top_observed\":[{\"variant\":\"VWGF\",\"fitness\":5.3907325057},{\"variant\":\"LYGV\",\"fitness\":5.07529943739},{\"variant\":\"VWGM\",\"fitness\":5.00280845609},{\"variant\":\"VHGM\",\"fitness\":4.77448984763}],\"quantitative_author\":\"deterministic_prediction_tool\",\"actions\":[{\"id\":\"39:W>L@WCGV/WVGV\",\"edit\":\"39:W>L\",\"scope\":{\"backgrounds\":[\"WCGV\",\"WVGV\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"41\":\"G\",\"54\":\"V\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"WCGV\",\"parent_fitness\":0.181107254063,\"unknown_child\":\"LCGV\",\"child_prediction\":2.3516852060953775,\"point_delta\":2.1705779520323776,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":1.6797666045916,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:WDGV>LDGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"WVGV\",\"parent_fitness\":0.103566692439,\"unknown_child\":\"LVGV\",\"child_prediction\":2.4622949759165444,\"point_delta\":2.3587282834775443,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":1.6797666045916,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:WDGV>LDGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":0.18815033144516669,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[0.04106800264877997,0.44363944239182196,0.07974354929489813],\"interaction_agreement\":0.3333333333333333,\"interaction\":\"unresolved\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":1.67977,\"n_contexts\":1,\"child_prediction\":[2.35169,2.46229],\"predicted_delta\":[2.17058,2.35873],\"batch_cost_alone\":0.05766,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:WDGV>LDGV\",\"delta\":1.6797666045916}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"40:W>H@IWGA/LWGA\",\"edit\":\"40:W>H\",\"scope\":{\"backgrounds\":[\"IWGA\",\"LWGA\"],\"differing_positions\":[39],\"single_background_site\":39,\"fixed_background\":{\"41\":\"G\",\"54\":\"A\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"IWGA\",\"parent_fitness\":2.34593175792,\"unknown_child\":\"IHGA\",\"child_prediction\":2.6655056476593018,\"point_delta\":0.3195738897393019,\"point_direction\":\"increase\",\"consensus_direction\":\"uncertain\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":9,\"median_delta\":-0.6889985676799997,\"direction_counts\":{\"decrease\":7,\"increase\":1,\"near_zero\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:FWGV>FHGV\",\"C:LWGM>LHGM\",\"C:LWGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"LWGA\",\"parent_fitness\":2.74706776264,\"unknown_child\":\"LHGA\",\"child_prediction\":2.6140751043955484,\"point_delta\":-0.13299265824445147,\"point_direction\":\"decrease\",\"consensus_direction\":\"uncertain\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":2,\"median_delta\":-0.9721076417649999,\"direction_counts\":{\"decrease\":2},\"direction\":\"decrease\",\"evidence_ids\":[\"C:LWGM>LHGM\",\"C:LWGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.45256654798375334,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.44072159508254893,-0.5271454689839161,-0.389832579884795],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":-0.689,\"n_contexts\":9,\"child_prediction\":[2.66551,2.61408],\"predicted_delta\":[0.31957,-0.13299],\"batch_cost_alone\":0.02856,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:FWGV>FHGV\",\"delta\":-0.37711237673},{\"id\":\"C:VWGF>VHGF\",\"delta\":-2.30431582239},{\"id\":\"C:VWGT>VHGT\",\"delta\":0.16439733362999998}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:A>C@LFGA/LWGA\",\"edit\":\"54:A>C\",\"scope\":{\"backgrounds\":[\"LFGA\",\"LWGA\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"39\":\"L\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"LFGA\",\"parent_fitness\":2.47369898132,\"unknown_child\":\"LFGC\",\"child_prediction\":3.017536242802938,\"point_delta\":0.5438372614829378,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":2,\"median_delta\":0.8307165055249998,\"direction_counts\":{\"increase\":1,\"near_zero\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGA>VDGC\",\"C:VYGA>VYGC\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"LWGA\",\"parent_fitness\":2.74706776264,\"unknown_child\":\"LWGC\",\"child_prediction\":3.7059144973754883,\"point_delta\":0.9588467347354883,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":2,\"median_delta\":0.8307165055249998,\"direction_counts\":{\"increase\":1,\"near_zero\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:VDGA>VDGC\",\"C:VYGA>VYGC\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":0.4150094732525506,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[0.2074595038972853,0.4899492805086134,0.5476196353517531],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":0.83072,\"n_contexts\":2,\"child_prediction\":[3.01754,3.70591],\"predicted_delta\":[0.54384,0.95885],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:VDGA>VDGC\",\"delta\":0.040986573079999866},{\"id\":\"C:VYGA>VYGC\",\"delta\":1.6204464379699997}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:A>F@IWGA/LWGA\",\"edit\":\"54:A>F\",\"scope\":{\"backgrounds\":[\"IWGA\",\"LWGA\"],\"differing_positions\":[39],\"single_background_site\":39,\"fixed_background\":{\"40\":\"W\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"IWGA\",\"parent_fitness\":2.34593175792,\"unknown_child\":\"IWGF\",\"child_prediction\":3.5140465100606284,\"point_delta\":1.1681147521406283,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":2,\"median_delta\":-0.6383247157575,\"direction_counts\":{\"decrease\":2},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:LFGA>LFGF\",\"C:VDGA>VDGF\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"LWGA\",\"parent_fitness\":2.74706776264,\"unknown_child\":\"LWGF\",\"child_prediction\":3.2008326053619385,\"point_delta\":0.4537648427219385,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":-0.7244882920300002,\"direction_counts\":{\"decrease\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:LFGA>LFGF\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.7143499094186899,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.4724994538166798,-0.7197166321614064,-0.9508336422779835],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":-0.63832,\"n_contexts\":2,\"child_prediction\":[3.51405,3.20083],\"predicted_delta\":[1.16811,0.45376],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:LFGA>LFGF\",\"delta\":-0.7244882920300002},{\"id\":\"C:VDGA>VDGF\",\"delta\":-0.552161139485}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"}],\"step\":1,\"prior_selected\":[]}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "rawOutput": "{\"action_id\":\"54:A>C@LFGA/LWGA\",\"question\":\"maximize_binding\",\"evidence_id\":\"C:VDGA>VDGC\",\"response_to\":\"NEW\",\"reason\":\"Predicted increase in binding energy\"}",
+        "finish": "stop"
+      },
+      {
+        "callId": "ae9a614305ca437288a7441af2e30e02",
+        "input": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nPlan virtual GB1 binding experiments at sites39,40,41,54. Select ONE allowed action and a scientific question. Two measured parents differ at exactly one background site; the two single-edit children are UNKNOWN. A deterministic tool has already calculated the child point forecasts, parent-child differences, interaction difference and member agreement. These are MODEL predictions, not measured child fitness. You do not perform arithmetic or output direction/interaction labels. Those quantities are owned by the tool. Choose question maximize_binding, contrast_backgrounds, or resolve_uncertainty. Consider predicted value, opportunity cost, background contrast, observed evidence and model disagreement. Member agreement is not calibrated confidence. Sparse evidence is not proof of benefit. Related revisions only describe their measured contexts, never all residues. C:parent>child IDs are already observed contrasts; MODEL_FORECAST means no observed contrast is cited. Return JSON action_id,question,evidence_id,response_to,reason. Reason at most120 characters. No measured child-fitness, folding-stability or statistical-significance claims.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\n{\"observed_n\":544,\"best_known\":5.3907325057,\"top_observed\":[{\"variant\":\"VWGF\",\"fitness\":5.3907325057},{\"variant\":\"LYGV\",\"fitness\":5.07529943739},{\"variant\":\"VWGM\",\"fitness\":5.00280845609},{\"variant\":\"VHGM\",\"fitness\":4.77448984763}],\"quantitative_author\":\"deterministic_prediction_tool\",\"actions\":[{\"id\":\"39:W>L@WCGV/WVGV\",\"edit\":\"39:W>L\",\"scope\":{\"backgrounds\":[\"WCGV\",\"WVGV\"],\"differing_positions\":[40],\"single_background_site\":40,\"fixed_background\":{\"41\":\"G\",\"54\":\"V\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"WCGV\",\"parent_fitness\":0.181107254063,\"unknown_child\":\"LCGV\",\"child_prediction\":2.3516852060953775,\"point_delta\":2.1705779520323776,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":1.6797666045916,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:WDGV>LDGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"WVGV\",\"parent_fitness\":0.103566692439,\"unknown_child\":\"LVGV\",\"child_prediction\":2.4622949759165444,\"point_delta\":2.3587282834775443,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":1.6797666045916,\"direction_counts\":{\"increase\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:WDGV>LDGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":0.18815033144516669,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[0.04106800264877997,0.44363944239182196,0.07974354929489813],\"interaction_agreement\":0.3333333333333333,\"interaction\":\"unresolved\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":1.67977,\"n_contexts\":1,\"child_prediction\":[2.35169,2.46229],\"predicted_delta\":[2.17058,2.35873],\"batch_cost_alone\":0.05766,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:WDGV>LDGV\",\"delta\":1.6797666045916}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"40:W>H@IWGA/LWGA\",\"edit\":\"40:W>H\",\"scope\":{\"backgrounds\":[\"IWGA\",\"LWGA\"],\"differing_positions\":[39],\"single_background_site\":39,\"fixed_background\":{\"41\":\"G\",\"54\":\"A\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"IWGA\",\"parent_fitness\":2.34593175792,\"unknown_child\":\"IHGA\",\"child_prediction\":2.6655056476593018,\"point_delta\":0.3195738897393019,\"point_direction\":\"increase\",\"consensus_direction\":\"uncertain\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":9,\"median_delta\":-0.6889985676799997,\"direction_counts\":{\"decrease\":7,\"increase\":1,\"near_zero\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:FWGV>FHGV\",\"C:LWGM>LHGM\",\"C:LWGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"LWGA\",\"parent_fitness\":2.74706776264,\"unknown_child\":\"LHGA\",\"child_prediction\":2.6140751043955484,\"point_delta\":-0.13299265824445147,\"point_direction\":\"decrease\",\"consensus_direction\":\"uncertain\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":2,\"median_delta\":-0.9721076417649999,\"direction_counts\":{\"decrease\":2},\"direction\":\"decrease\",\"evidence_ids\":[\"C:LWGM>LHGM\",\"C:LWGV>LHGV\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.45256654798375334,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.44072159508254893,-0.5271454689839161,-0.389832579884795],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":-0.689,\"n_contexts\":9,\"child_prediction\":[2.66551,2.61408],\"predicted_delta\":[0.31957,-0.13299],\"batch_cost_alone\":0.02856,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:FWGV>FHGV\",\"delta\":-0.37711237673},{\"id\":\"C:VWGF>VHGF\",\"delta\":-2.30431582239},{\"id\":\"C:VWGT>VHGT\",\"delta\":0.16439733362999998}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"},{\"id\":\"54:A>F@IWGA/LWGA\",\"edit\":\"54:A>F\",\"scope\":{\"backgrounds\":[\"IWGA\",\"LWGA\"],\"differing_positions\":[39],\"single_background_site\":39,\"fixed_background\":{\"40\":\"W\",\"41\":\"G\"},\"design\":\"complete_2x2_cycle_two_known_parents_two_unknown_children\"},\"tests\":[{\"label\":\"A\",\"parent\":\"IWGA\",\"parent_fitness\":2.34593175792,\"unknown_child\":\"IWGF\",\"child_prediction\":3.5140465100606284,\"point_delta\":1.1681147521406283,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":2,\"distinct_backgrounds\":2,\"median_delta\":-0.6383247157575,\"direction_counts\":{\"decrease\":2},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:LFGA>LFGF\",\"C:VDGA>VDGF\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}},{\"label\":\"B\",\"parent\":\"LWGA\",\"parent_fitness\":2.74706776264,\"unknown_child\":\"LWGF\",\"child_prediction\":3.2008326053619385,\"point_delta\":0.4537648427219385,\"point_direction\":\"increase\",\"consensus_direction\":\"increase\",\"observed_background_summary\":{\"nearest_distance\":1,\"distinct_backgrounds\":1,\"median_delta\":-0.7244882920300002,\"direction_counts\":{\"decrease\":1},\"direction\":\"uncertain\",\"evidence_ids\":[\"C:LFGA>LFGF\"],\"limitation\":\"Observed nearby backgrounds; heuristic support, not calibrated confidence\"}}],\"tool_interaction\":{\"point_interaction_delta\":-0.7143499094186899,\"point_interaction\":\"different_magnitude\",\"member_interaction_delta\":[-0.4724994538166798,-0.7197166321614064,-0.9508336422779835],\"interaction_agreement\":1.0,\"interaction\":\"different_magnitude\",\"interaction_threshold\":0.1},\"effect_threshold\":0.05,\"members\":3,\"statistics\":{\"median_delta\":-0.63832,\"n_contexts\":2,\"child_prediction\":[3.51405,3.20083],\"predicted_delta\":[1.16811,0.45376],\"batch_cost_alone\":0.0,\"unresolved\":true},\"related_revision\":null,\"evidence\":[{\"id\":\"C:LFGA>LFGF\",\"delta\":-0.7244882920300002},{\"id\":\"C:VDGA>VDGF\",\"delta\":-0.552161139485}],\"uncertainty_interpretation\":\"Empirical model disagreement; not calibrated confidence or measurement noise\"}],\"step\":2,\"prior_selected\":[\"54:A>C@LFGA/LWGA\"]}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+        "rawOutput": "{\"action_id\":\"54:A>F@IWGA/LWGA\",\"question\":\"maximize_binding\",\"evidence_id\":\"C:LFGA>LFGF\",\"response_to\":\"NEW\",\"reason\":\"Predicted increase in binding energy\"}",
+        "finish": "stop"
+      }
+    ],
+    "siteStatistics": [
+      {
+        "site": 39,
+        "residues": {
+          "L": 5,
+          "Q": 1,
+          "I": 2,
+          "V": 2,
+          "D": 1,
+          "F": 2,
+          "C": 2,
+          "M": 1
+        },
+        "nonWT": 14
+      },
+      {
+        "site": 40,
+        "residues": {
+          "Y": 6,
+          "F": 3,
+          "W": 7
+        },
+        "nonWT": 16
+      },
+      {
+        "site": 41,
+        "residues": {
+          "G": 16
+        },
+        "nonWT": 0
+      },
+      {
+        "site": 54,
+        "residues": {
+          "C": 6,
+          "M": 2,
+          "A": 1,
+          "V": 3,
+          "F": 4
+        },
+        "nonWT": 13
+      }
+    ],
+    "nextObservedN": 560,
+    "nextActions": []
+  }
+]

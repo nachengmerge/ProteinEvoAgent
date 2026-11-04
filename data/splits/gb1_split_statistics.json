@@ -1,0 +1,10 @@
+{
+  "random_seed": 20261027,
+  "initial_labeled": 512,
+  "oracle_unlabeled": 111528,
+  "validation": 14928,
+  "test": 22393,
+  "partition_method": "Stratified by Hamming depth 2-4; all WT and 76 singles assigned to discovery",
+  "seed_sampling_method": "WT + all singles + equal random quota of depth 2, 3, 4 (fitness-blind)",
+  "warning": "Only oracle.measure reveals oracle fitness to the simulation; never give the oracle CSV to the agent or predictor"
+}

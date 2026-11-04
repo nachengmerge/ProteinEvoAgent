@@ -1,0 +1,20 @@
+{
+  "seeds": [45001,45002,45003,45004,45005,45006,45007,45008],
+  "methods": ["random","point_greedy","full_greedy","tool_rule","tool_llm","knowledge_tool_llm"],
+  "rounds": 3,
+  "candidate_budget": 800,
+  "batch_size": 16,
+  "predictor": "blend_resmlp_pairwise",
+  "device": "cuda",
+  "action_limit": 12,
+  "cost_limit": 0.1,
+  "effect_threshold": 0.05,
+  "interaction_threshold": 0.1,
+  "min_contexts": 2,
+  "max_distance": 1,
+  "LLM": {"context":8192,"input":7168,"output_per_call":256,"temperature":0.0,"seed":20261030,"gpu_layers":-1,"threads":8},
+  "ensemble_members": 3,
+  "tool_vote_fraction": 1.0,
+  "contrast_pairs": [["full_greedy","point_greedy"],["tool_rule","full_greedy"],["tool_llm","tool_rule"],["tool_llm","full_greedy"],["knowledge_tool_llm","tool_llm"],["knowledge_tool_llm","full_greedy"]],
+  "purpose": "P34 real local Llama and knowledge control on full-current-data ensemble; matched tool banks and assay budgets; mean and final best gain co-primary"
+}
