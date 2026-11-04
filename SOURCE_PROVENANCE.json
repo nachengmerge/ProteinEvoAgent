@@ -149,8 +149,8 @@
       "kind": "curated_entrypoint_or_derived_report_asset"
     },
     "README.md": {
-      "sha256": "dadbebc069145372105a222a5afa556257d25a5817c82fafcd6b52df2bfbb812",
-      "bytes": 7752,
+      "sha256": "a3e779a9018c287498be46b47c84b4914c3844698247a9bc19b1fa3e80b7a289",
+      "bytes": 7730,
       "kind": "curated_entrypoint_or_derived_report_asset"
     },
     "results/agent/call_cost_summary.csv": {
@@ -693,5 +693,11 @@
     "demo_logic_tests_passed": true,
     "browser_visual_QA": false
   },
-  "note": "models/ and runs/ are validation-only and excluded from the submission."
+  "note": "models/ and runs/ are validation-only and excluded from the submission.",
+  "public_deployment": {
+    "repository": "https://github.com/nachengmerge/ProteinEvoAgent",
+    "GitHub_Pages": "https://nachengmerge.github.io/ProteinEvoAgent/",
+    "branch": "gh-pages",
+    "scope": "Archived experiment display; no live model invocation"
+  }
 }

@@ -2,7 +2,7 @@
 
 面向GB1蛋白质定向进化的科学智能体。此版本按用户提供的《实验报告.docx》整理，只保留对应的方法实现、必要数据、主要结果和交互演示，不包含历史迁移包、全阶段归档或模型权重。
 
-仓库：https://github.com/nachengmerge/ProteinEvoAgent （私有，评审需有访问权限）。
+仓库：https://github.com/nachengmerge/ProteinEvoAgent （公开，可直接访问）。
 
 ## 1. 报告与代码对应
 
@@ -73,7 +73,7 @@ python scripts/run_p34_llama.py run --config configs/llama_baseline_v1.json --ou
 
 ## 5. 交互演示页
 
-在线演示：[ProteinEvoAgent 实验交互演示](https://proteinevoagent-experiment-viewer.pluckycloth2.chatgpt.site)（私有，需要站点所有者的ChatGPT账号访问）。
+在线演示：[GitHub Pages — ProteinEvoAgent 实验交互演示](https://nachengmerge.github.io/ProteinEvoAgent/)（公开，无需登录或启动本地服务）。
 
 双击`demo/index.html`即可查看，无需安装前端依赖；也可从仓库根目录启动：
 
